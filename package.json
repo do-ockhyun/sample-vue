@@ -1,0 +1,27 @@
+{
+  "name": "sample-vue",
+  "description": "My Nuxt3 + Elemet Plus Project",
+  "author": "do-ockhyun <do-ockhyun@naver.com>",
+  
+  "version": "1.0.0",
+  "license": "MIT",
+  
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.11"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "element-plus": "^2.2.17",
+    "sass": "^1.55.0",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.7"
+  }
+}
