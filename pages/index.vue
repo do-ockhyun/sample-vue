@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+const envPath = `~/.env.${process.env.NODE_ENV || 'development'}`
+
+</script>
 
 <template>
   <div>
@@ -6,6 +9,7 @@
     <el-icon>
       <User style="font-size: 24px" />
     </el-icon>
+    <div>{{ envPath }}</div>
   </div>
 </template>
 
