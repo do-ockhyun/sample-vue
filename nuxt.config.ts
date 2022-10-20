@@ -6,4 +6,5 @@ export default defineNuxtConfig({
   build: {
     transpile: lifecycle === "build" ? ["element-plus"] : [],
   },
+  telemetry: false
 });
